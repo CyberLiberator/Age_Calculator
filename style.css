@@ -5,7 +5,7 @@
     font-family: "Poppins", sans-serif;
   }
   body {
-    background-color: #7d56f3;
+    background-color: #3f67ce;
   }
   .container {
     width: min(60%, 28.12em);
@@ -19,30 +19,31 @@
     outline: none;
   }
   .input-wrapper {
-    background-color: #ffffff;
+    background-color: white;
     padding: 1.87em 1.5em;
     border-radius: 0.5em;
     box-shadow: 0 0.93em 1.25em rgba(0, 0, 0, 0.3);
     background-color: #080808;
     margin-bottom: 3.12em;
     display: grid;
-    grid-template-columns: 9fr 3fr;
+    grid-template-columns: 5fr 2.5fr;
     gap: 1em;
   }
   input,
   button {
-    font-weight: 500;
+    font-weight: 580;
     border-radius: 0.31em;
   }
   input {
-    background-color: #eeeeff;
+    background-color: white;
     color: #080808;
-    padding: 1.2em 1.25em;
-    font-size: 0.87em;
+    padding: 0.5em 0.5em;
+    font-size: 0.95em;
   }
   button {
-    color: #ffffff;
-    background-color: #7d56f3;
+    color: #080808;
+    background-color:white;
+    font-size:0.95em ;
   }
   .output-wrapper {
     width: 100%;
@@ -52,9 +53,9 @@
   .output-wrapper div {
     height: 6.25em;
     width: 6.25em;
-    background-color: #ffffff;
+    background-color: black;
     border-radius: 0.31em;
-    color: #080808;
+    color: white;
     display: grid;
     place-items: center;
     padding: 1.25em 0;
